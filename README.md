@@ -23,11 +23,11 @@ For the classification task, I have collected a dataset of about 1000 images alt
 
 The libraries utilized are **TensorFlow, Keras, Media-Pipes & NumPy**. I have made use of the Media-Pipes library for the elegant look at the time of face detection. Further for the classification task, I had trained the **ResNet-50** model on the images setting only the last few layers as trainable. It leads to a problem of over-fitting. So, I scrapped this idea and trained a custom **CNN** model for the recognition/classification task. In this procedure, the bounding box acquired around the face of a person by **Haar-Cascades** is cropped utilizing the **Open-CV** library and passed into the **CNN** model for recognition of the person. 
 
-[](#https://github.com/gauravshipurkar/Face-Recognition/blob/main/result.png)
+![](#https://github.com/gauravshipurkar/Face-Recognition/blob/main/result.png)
 
 ## Installation
 
-The Code is written in Python 3.8. If you don't have Python installed you can find it [here](#https://www.python.org/downloads/release/python-380/). To install the required packages and libraries, run this command in the project directory after cloning the repository:
+The Code is written in Python 3.8. If you don't have Python installed you can find it [here](#https://www.python.org/downloads/release/python-380/). To install **Open-CV** you can go [here]. To install **Media-Pipes** you can go [here]. To install the required packages and libraries, run this command in the project directory after cloning the repository:
 
 ```
 pip install -r requirements.txt
