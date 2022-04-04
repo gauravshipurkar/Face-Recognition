@@ -27,7 +27,7 @@ The libraries utilized are **TensorFlow, Keras, Media-Pipes & NumPy**. I have ma
 
 ## Installation
 
-The Code is written in Python 3.8. If you don't have Python installed you can find it [here](#https://www.python.org/downloads/release/python-380/). To install **Open-CV** you can go [here](#https://opencv.org/). To install **Media-Pipes** you can go [here](#https://mediapipe.dev/). To install the required packages and libraries, run this command in the project directory after cloning the repository:
+The Code is written in Python 3.8. If you don't have Python installed you can find it [here](#https://www.python.org/downloads/release/python-380). To install **Open-CV** you can go [here](#https://opencv.org/). To install **Media-Pipes** you can go [here](#https://mediapipe.dev). To install the required packages and libraries, run this command in the project directory after cloning the repository:
 
 ```
 pip install -r requirements.txt
